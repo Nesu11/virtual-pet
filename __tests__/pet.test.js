@@ -31,13 +31,11 @@ beforeEach(() => {
 
   });
   it('Walk: increases pet fitness by 4 to max 10', () => {
-    const pet = new Pet('monty');
     //pet.fitness = 8;
     pet.walk();
     expect(pet.fitness).toEqual(10);
   })
   it('Feed: decreases pet hunger by 3, lowest level is 0', () => {
-    const pet = new Pet('morty');
     pet.hunger = 5;
     pet.feed();
     expect(pet.hunger).toEqual(2);
@@ -58,11 +56,17 @@ beforeEach(() => {
      })
      it('returns how pet is feeling', () => {
        expect(pet.checkUp()).toEqual('I feel Great');
-     })
-     it('returns whether pet isAlive: checks age, hunger,fitness', () => {
+     });
+
+
+     it('returns whether pet isAlive', () => {
+      expect(pet.isAlive).toBe(true)
+    });
+      
+    it('returns whether pet isAlive: checks age, hunger,fitness', () => {
       pet.age = 30
       pet.fitness = 10
       pet.hunger = 0
-      expect(pet.isAlive).toEqual|(false)
+      expect(pet.isAlive).toEqual(false)
     })
     })
