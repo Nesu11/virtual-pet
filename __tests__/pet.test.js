@@ -104,4 +104,21 @@ beforeEach(() => {
       pet.age = 30;
       expect(() => pet.checkUp()).toThrow('Your pet is no longer alive.')
     });
+    it('adds child object to Pet instance - this.children array', () =>{
+
+
+    })
+    it('adoptChild method for having a baby- 2 Pet instance- parent and child', () => {
+      const parent = new Pet('Dave');
+      const child = new Pet('Amelia');
+      parent.adoptChild(child)
+      expect(parent.children).toEqual([{name: 'Amelia', age: 0, fitness: 10, hunger: 0, children: []}])
+    });
+
+    it('haveBaby method - adds child object to Pet instance - this.children array', () => {
+      const parent = new Pet ('Billy')
+      parent.haveBaby('Dave')
+      expect(parent.children).toEqual([{name: 'Dave', age: 0, fitness: 10, hunger: 0, children: []}])
+    });
+
     })
