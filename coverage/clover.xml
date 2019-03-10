@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1552247111282" clover="3.2.0">
+  <project timestamp="1552247111282" name="All files">
+    <metrics statements="47" coveredstatements="47" conditionals="23" coveredconditionals="23" methods="8" coveredmethods="8" elements="78" coveredelements="78" complexity="0" loc="47" ncloc="47" packages="1" files="1" classes="1"/>
+    <file name="pet.js" path="/Users/rodris04/code/mcr.codes/virtual-pet-3/src/pet.js">
+      <metrics statements="47" coveredstatements="47" conditionals="23" coveredconditionals="23" methods="8" coveredmethods="8"/>
+      <line num="6" count="1" type="stmt"/>
+      <line num="7" count="1" type="stmt"/>
+      <line num="8" count="1" type="stmt"/>
+      <line num="9" count="1" type="stmt"/>
+      <line num="10" count="1" type="stmt"/>
+      <line num="11" count="1" type="stmt"/>
+      <line num="14" count="25" type="stmt"/>
+      <line num="15" count="25" type="stmt"/>
+      <line num="16" count="25" type="stmt"/>
+      <line num="17" count="25" type="stmt"/>
+      <line num="18" count="25" type="stmt"/>
+      <line num="21" count="1" type="stmt"/>
+      <line num="23" count="16" type="cond" truecount="3" falsecount="0"/>
+      <line num="47" count="1" type="stmt"/>
+      <line num="50" count="2" type="cond" truecount="2" falsecount="0"/>
+      <line num="51" count="1" type="stmt"/>
+      <line num="54" count="1" type="stmt"/>
+      <line num="55" count="1" type="stmt"/>
+      <line num="56" count="1" type="stmt"/>
+      <line num="59" count="1" type="stmt"/>
+      <line num="60" count="3" type="cond" truecount="2" falsecount="0"/>
+      <line num="61" count="1" type="stmt"/>
+      <line num="64" count="2" type="cond" truecount="2" falsecount="0"/>
+      <line num="65" count="1" type="stmt"/>
+      <line num="67" count="1" type="stmt"/>
+      <line num="71" count="1" type="stmt"/>
+      <line num="72" count="4" type="cond" truecount="2" falsecount="0"/>
+      <line num="73" count="1" type="stmt"/>
+      <line num="74" count="3" type="cond" truecount="2" falsecount="0"/>
+      <line num="75" count="2" type="stmt"/>
+      <line num="77" count="1" type="stmt"/>
+      <line num="81" count="1" type="stmt"/>
+      <line num="82" count="5" type="cond" truecount="2" falsecount="0"/>
+      <line num="83" count="1" type="stmt"/>
+      <line num="86" count="4" type="cond" truecount="4" falsecount="0"/>
+      <line num="87" count="1" type="stmt"/>
+      <line num="88" count="3" type="cond" truecount="2" falsecount="0"/>
+      <line num="89" count="1" type="stmt"/>
+      <line num="90" count="2" type="cond" truecount="2" falsecount="0"/>
+      <line num="91" count="1" type="stmt"/>
+      <line num="93" count="1" type="stmt"/>
+      <line num="97" count="1" type="stmt"/>
+      <line num="98" count="1" type="stmt"/>
+      <line num="100" count="1" type="stmt"/>
+      <line num="101" count="1" type="stmt"/>
+      <line num="102" count="1" type="stmt"/>
+      <line num="105" count="1" type="stmt"/>
+    </file>
+  </project>
+</coverage>
